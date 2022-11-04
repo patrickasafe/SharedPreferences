@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/user_header"
+        app:icon="@mipmap/ic_launcher">
+
+        <EditTextPreference
+            app:key="f_name"
+            app:title="@string/f_name_title"
+            app:useSimpleSummaryProvider="true" />
+            />
+
+        <EditTextPreference
+            app:key="l_name"
+            app:title="@string/l_name_title"
+            app:useSimpleSummaryProvider="true" />
+        />
+
+        <SeekBarPreference
+            app:title="@string/age_title"
+            app:key="age"
+            app:min="10"
+            android:max="120"
+            app:showSeekBarValue="true"
+            />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

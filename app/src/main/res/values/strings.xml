@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Aula15</string>
+    <string name="f_name_textview">TextView</string>
+    <string name="l_name_textview">TextView</string>
+    <string name="age_textview">TextView</string>
+    <string name="settingsButtonText">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="user_header">User Info</string>
+
+    <!-- User Preferences -->
+    <string name="f_name_title">First Name</string>
+    <string name="l_name_title">Last Name</string>
+    <string name="age_title">Age</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age</string>
+
+</resources>
